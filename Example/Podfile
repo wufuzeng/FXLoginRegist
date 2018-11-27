@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FXLoginRegist_Example' do
+  pod 'FXLoginRegist', :path => '../'
+
+  target 'FXLoginRegist_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
