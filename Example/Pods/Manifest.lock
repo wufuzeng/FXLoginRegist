@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - FXLoginRegist (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - FXLoginRegist (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  FXLoginRegist:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  FXLoginRegist: 94e29509bcdc697e3fb3a2d8e98accd7703047cb
+
+PODFILE CHECKSUM: 13dc73cd42211eb5f5ea74348dd0d8d8b4fa131d
+
+COCOAPODS: 1.5.3

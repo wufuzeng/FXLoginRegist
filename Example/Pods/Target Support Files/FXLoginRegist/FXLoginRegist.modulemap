@@ -1,0 +1,6 @@
+framework module FXLoginRegist {
+  umbrella header "FXLoginRegist-umbrella.h"
+
+  export *
+  module * { export * }
+}

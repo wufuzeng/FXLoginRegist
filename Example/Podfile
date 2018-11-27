@@ -1,8 +1,8 @@
 use_frameworks!
 
 target 'FXLoginRegist_Example' do
-  pod 'FXLoginRegist', :path => '../'
-
+#  pod 'FXLoginRegist', :path => '../'
+pod 'FXLoginRegist', :podspec => '../FXLoginRegist.podspec'
   target 'FXLoginRegist_Tests' do
     inherit! :search_paths
 
